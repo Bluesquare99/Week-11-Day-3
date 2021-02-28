@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+/Users/bluesquarez/Desktop/TTS/Themes/Springboot/helloworld/.metadata/.plugins/org.eclipse.jdt.core
+4028600146.index

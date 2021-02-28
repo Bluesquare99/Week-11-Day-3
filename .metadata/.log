@@ -1,0 +1,299 @@
+!SESSION 2021-02-28 17:09:12.249 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/bluesquarez/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/bluesquarez/.eclipse_keyring
+
+!ENTRY org.eclipse.ui.ide 4 4 2021-02-28 17:12:38.816
+!MESSAGE Could not read version file /Users/bluesquarez/Desktop/TTS/Themes/Springboot/.metadata/version.ini
+
+!ENTRY org.eclipse.ui.ide 4 4 2021-02-28 17:12:38.817
+!MESSAGE /Users/bluesquarez/Desktop/TTS/Themes/Springboot/.metadata/version.ini (Operation not permitted)
+!STACK 0
+java.io.FileNotFoundException: /Users/bluesquarez/Desktop/TTS/Themes/Springboot/.metadata/version.ini (Operation not permitted)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.readWorkspaceVersion(IDEApplication.java:591)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.compareWorkspaceAndIdeVersions(IDEApplication.java:563)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkValidWorkspace(IDEApplication.java:478)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.promptForWorkspace(IDEApplication.java:415)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkInstanceLocation(IDEApplication.java:285)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:142)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.ui.ide 4 4 2021-02-28 17:12:50.820
+!MESSAGE Could not read version file /Users/bluesquarez/Desktop/TTS/Themes/Springboot/.metadata/version.ini
+
+!ENTRY org.eclipse.ui.ide 4 4 2021-02-28 17:12:50.821
+!MESSAGE /Users/bluesquarez/Desktop/TTS/Themes/Springboot/.metadata/version.ini (Operation not permitted)
+!STACK 0
+java.io.FileNotFoundException: /Users/bluesquarez/Desktop/TTS/Themes/Springboot/.metadata/version.ini (Operation not permitted)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.readWorkspaceVersion(IDEApplication.java:591)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.compareWorkspaceAndIdeVersions(IDEApplication.java:563)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkValidWorkspace(IDEApplication.java:478)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.promptForWorkspace(IDEApplication.java:415)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkInstanceLocation(IDEApplication.java:285)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:142)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.jface 2 0 2021-02-28 17:13:13.779
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-28 17:13:13.780
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d2be319,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35d3202b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2021-02-28 17:15:12.438
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:26.998
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:26.998
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4f92e76a[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=573)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:27.001
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:27.031
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-02-28 17:15:30.100
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:30.230
+!MESSAGE Boot LS startup time from start to initialized: 3222ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:30.392
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NfOKeMIRisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:30.396
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:30.399
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:30.400
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:30.400
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:30.401
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NfOKeMIR => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:30.409
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:30.416
+!MESSAGE buffering callback sts4.classpath.NfOKeMIR OkReally false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:30.417
+!MESSAGE executing callback sts4.classpath.NfOKeMIR 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:15:30.483
+!MESSAGE executing callback sts4.classpath.NfOKeMIR SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-28 17:17:41.527
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from /Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_0.5.13.202012011111/node_modules/typescript/lib/tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-28 17:17:41.528
+!MESSAGE [Info]	Angular language server process ID: 12536
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-28 17:17:41.528
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from /Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.wildwebdeveloper_0.5.13.202012011111/node_modules/@angular/language-service/bundles/language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-02-28 17:17:41.528
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-02-28 17:17:42.646
+!MESSAGE [Error]	No config file for /Users/bluesquarez/Desktop/TTS/Themes/Springboot/OkReally/src/main/resources/static/index.html
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:18:49.973
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:18:49.974
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:18:49.974
+!MESSAGE buffering callback sts4.classpath.NfOKeMIR src false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:18:49.975
+!MESSAGE executing callback sts4.classpath.NfOKeMIR 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:18:50.013
+!MESSAGE executing callback sts4.classpath.NfOKeMIR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:18:50.050
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:18:50.051
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:18:50.051
+!MESSAGE buffering callback sts4.classpath.NfOKeMIR src false 3
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:18:50.053
+!MESSAGE executing callback sts4.classpath.NfOKeMIR 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:18:50.129
+!MESSAGE executing callback sts4.classpath.NfOKeMIR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:19:04.438
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:19:04.442
+!MESSAGE buffering callback sts4.classpath.NfOKeMIR src true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:19:04.442
+!MESSAGE executing callback sts4.classpath.NfOKeMIR 1 batched events
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-28 17:19:04.443
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URI.toString()" because the return value of "org.eclipse.core.resources.IProject.getLocationURI()" is null
+	at org.eclipse.lsp4e.LSPEclipseUtils.toWorkspaceFolder(LSPEclipseUtils.java:790)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:497)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.lsp4e.LanguageServerWrapper.toWorkspaceFolderEvent(LanguageServerWrapper.java:491)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:169)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:575)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-28 17:19:04.447
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URI.toString()" because the return value of "org.eclipse.core.resources.IProject.getLocationURI()" is null
+	at org.eclipse.lsp4e.LSPEclipseUtils.toWorkspaceFolder(LSPEclipseUtils.java:790)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:497)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.lsp4e.LanguageServerWrapper.toWorkspaceFolderEvent(LanguageServerWrapper.java:491)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:169)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:575)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:19:04.448
+!MESSAGE executing callback sts4.classpath.NfOKeMIR SUCCESS [done]
+
+!ENTRY org.eclipse.core.resources 4 2 2021-02-28 17:19:04.448
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URI.toString()" because the return value of "org.eclipse.core.resources.IProject.getLocationURI()" is null
+	at org.eclipse.lsp4e.LSPEclipseUtils.toWorkspaceFolder(LSPEclipseUtils.java:790)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:497)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.lsp4e.LanguageServerWrapper.toWorkspaceFolderEvent(LanguageServerWrapper.java:491)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:169)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:575)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:22:44.332
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NfOKeMIR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:22:44.338
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NfOKeMIR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:22:44.339
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-02-28 17:22:44.339
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NfOKeMIR => OK

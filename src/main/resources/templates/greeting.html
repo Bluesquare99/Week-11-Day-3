@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://thymeleaf.org">
+
+<head>
+<title>Getting Started: Serving Web Content</title>
+<meta http-equiv="Content-Type" context="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+	<p class="tomboy" th:text="'Hello, ' + ${name} + '!'">
+	<ul>
+		<li th:each="integer : ${integerList}" 
+		th:text="${integer}"></li>
+		
+	</ul>
+	
+	
+	
+</body>
+
+</html>
